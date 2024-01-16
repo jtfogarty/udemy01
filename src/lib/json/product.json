@@ -1,0 +1,209 @@
+[
+    {
+        "id": "Xgraphic01",
+        "name": "X20B Xerographic Bond - 20 lb. General Purpose Bond",
+        "category": "Xerographic Media",
+        "description": "Bright white for strong visual contrast. Ideal for general purpose copying in all engineering copiers.",
+        "price": "00.00",
+        "showImage": "False", 
+        "image": "/no-image.png"
+    },
+    {
+        "id": "Xgraphic02",
+        "name": "VL120 Xerographic Vellum - 20 lb. Vellum",
+        "category": "Xerographic Media",
+        "description": "100% cotton fiber vellum for archival quality. Transparentized for diazo reproduction. Bright white finish for strong visual contrast.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "Xgraphic03",
+        "name": "D4X2 Xerographic Mylar - 4 mil Double Matte Mylar",
+        "category": "Xerographic Media",
+        "description": "Heat stabilized polyester film with an excellent drafting surface that is imageable on both sides. Extremely durable and archival quality.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    }, 
+    {
+        "id": "Xgraphic04",
+        "name": "587 Xerographic Translucent Bond - 18 lb. Bond",
+        "category": "Xerographic Media",
+        "description": "Used as an inexpensive alternative to vellum. Suitable for short-run diazo reproduction.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia01",
+        "name": "P20 - 20 lb. White Ink Jet Bond",
+        "category": "InkJet Media",
+        "description": "Best used for monochrome plotting. Economically priced, this bond can be used for both check plots and final plots.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia02",
+        "name": "P24 - 24 lb. Heavyweight White Ink Jet Bond",
+        "category": "InkJet Media",
+        "description": "Best used for monochrome plotting. This bond offers great handling and durability.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia03",
+        "name": "717 - 24 lb. Coated White Ink Jet Color Bond",
+        "category": "InkJet Media",
+        "description": "Suitable for most color applications. Specially coated to produce sharp looking lines and eye-catching colors.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia04",
+        "name": "587 - 18 lb. Translucent Ink Jet Bond",
+        "category": "InkJet Media",
+        "description": "Best used for monochrome plotting. Inexpensive alternative to vellum. Suitable for short-run diazo reproduction.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia05",
+        "name": "J16VS - 16 lb. Medium Weight Ink Jet Vellum",
+        "category": "InkJet Media",
+        "description": "Best used for monochrome plotting. Product designed to be archival. Makes excellent diazo reproductions.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia06",
+        "name": "J20VS - 20 lb. Heavy Weight Ink Jet Vellum",
+        "category": "InkJet Media",
+        "description": "Best used for monochrome plotting. Product designed to be archival and durable. Makes excellent diazo reproductions.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia07",
+        "name": "PM35 (#749) - 35 lb. Presentation Ink Jet Color Bond",
+        "category": "InkJet Media",
+        "description": "Suitable for color plotting when heavy ink application is necessary. High opacity bright white topcoat for superior color consistency.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia08",
+        "name": "PM46 (#746) - 46 lb. Presentation Ink Jet Color Bond",
+        "category": "InkJet Media",
+        "description": "Suitable for color plotting when heavy ink application is necessary. High opacity bright white topcoat for superior color consistency.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia09",
+        "name": "751G - 8 mil Glossy Photographic Ink Jet Color Bond",
+        "category": "InkJet Media",
+        "description": "Microporous topcoat allows extremely fast drying time. Offers superior high gloss photographic quality images.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia10",
+        "name": "751S - 8 mil Satin Photographic Ink Jet Color Bond",
+        "category": "InkJet Media",
+        "description": "Microporous topcoat allows extremely fast drying time. Offers superior satin finish photographic quality images.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia11",
+        "name": "JPD4E - 4 mil Double Matte Ink Jet Mylar",
+        "category": "InkJet Media",
+        "description": "Best used for monochrome plotting. Plotting surface is erasable. Drafting surface exists beneath plotting surface to facilitate changes in final plot. Makes excellent diazo reproductions.  Product is extremely durable and archival.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia12",
+        "name": "JPS4 - 4 mil Single Matte Ink Jet Mylar",
+        "category": "InkJet Media",
+        "description": "Best used for monochrome plotting. Makes excellent diazo reproductions.  Product is extremely durable and archival.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia13",
+        "name": "787N - 4 mil Clear Ink Jet Mylar",
+        "category": "InkJet Media",
+        "description": "Clear film with a topcoat that accepts ink. Excellent product for overlay work. High transparency and good durability.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia14",
+        "name": "815 - 8 mil Polypropylene Banner - Matte Finish",
+        "category": "InkJet Media",
+        "description": "Suitable for short-term outdoor and indoor banner needs. Tear, water, and UV damage resistant.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia15",
+        "name": "815PSA - 8 mil Adhesive-Backed Polypropylene Banner - Matte Finish",
+        "category": "InkJet Media",
+        "description": "Suitable for short-term outdoor and indoor banner needs. Pressure sensitive adhesive allows for immediate application to a variety of substrates.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia16",
+        "name": "820 - 17 mil Reinforced Block-out Scrim Vinyl",
+        "category": "InkJet Media",
+        "description": "The opacity in this product eliminates show-through from sunlight and other factors. Excellent for both indoor and outdoor banner applications.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia17",
+        "name": "840 - 10 mil Tyvek Banner",
+        "category": "InkJet Media",
+        "description": "Maximum durability and tear resistance. Suitable for both indoor and outdoor banner applications.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "InkJetMedia18",
+        "name": "752RPA - 7 mil Vinyl Poster Media - Matte Finish",
+        "category": "InkJet Media",
+        "description": "This material has a versatile repositionable adhesive backer that allows media to be placed on walls and other substrates.  Media is designed to be easily removed when needed.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    },
+    {
+        "id": "BluelineMedia01",
+        "name": "216M - 20 lb. Fast Speed Blue Line Paper",
+        "category": "Blueline Media",
+        "description": "Maximum printing speed. Designed for fast printing and good contrast.",
+        "showImage": "False",
+        "price": "00.00",
+        "image": "/no-image.png"
+    }
+]
