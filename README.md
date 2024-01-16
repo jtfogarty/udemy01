@@ -4,15 +4,24 @@ Everything you need to build a Svelte project, powered by [`create-svelte`](http
 
 ## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+### create-svelte
+
+I created this project using;
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+pnpm create svelte@latest .
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+pnpm dlx svelte-add@latest tailwindcss
+
+#Using svelte-add setup tailwind for this project
+
+pnpm isntall
+
+git add . && git commit -m "after installs" && git push origin main
+
+pnpm dev -- --host=10.10.4.41  #ip address is specific to the development server.
+
+pnpm dlx shadcn-svelte@latest init
 
 ## Developing
 
