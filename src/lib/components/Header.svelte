@@ -4,7 +4,7 @@
 
 <nav class="">
     <img src="/roto-siteheader-960x160.jpg" alt="Rotolite of St. Louis"  class="flex-grow w-full object-cover"/>
-    <div class="flex py-4 text-white font-bold ">
+    <div class="flex py-4 text-white font-bold border  border-t-white">
         <ul class="flex space-x-8">
             <li>    
                 <a href="/" class="hover:text-blue-500 duration-300">

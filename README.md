@@ -38,3 +38,14 @@ To create a production version of your app:
 ```bash
 pnpm run build
 ```
+ ## Shadcn-svelte components
+
+ ```bash
+  npx shadcn-svelte@latest add tabs
+  npx shadcn-svelte@latest add card
+  npx shadcn-svelte@latest add button
+  npx shadcn-svelte@latest add input
+  npx shadcn-svelte@latest add label
+  npx shadcn-svelte@latest add textarea
+  npx shadcn-svelte@latest add select
+ ```
