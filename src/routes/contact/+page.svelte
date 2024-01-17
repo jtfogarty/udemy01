@@ -30,7 +30,7 @@
           Your requests, opinions, and feedback are very important to us. Please complete the following form and a Rotolite of St. Louis representative will contact you.
         </Card.Description>
       </Card.Header>
-      <Card.Content class="space-y-2 w-[800px]">
+      <Card.Content class="space-y-2">
         <CardEmail />
         <Textarea placeholder="Type your message here." />
         <Select.Root>
@@ -58,9 +58,9 @@
   <Tabs.Content value="service">
     <Card.Root>
       <Card.Header>
-        <Card.Title>service</Card.Title>
+        <Card.Title>Service</Card.Title>
         <Card.Description>
-          Change your service here. After saving, you'll be logged out.
+          Your requests, opinions, and feedback are very important to us. Please complete the following form and a Rotolite of St. Louis representative will contact you.
         </Card.Description>
       </Card.Header>
       <Card.Content class="space-y-2">
