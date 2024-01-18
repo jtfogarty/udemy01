@@ -3,10 +3,9 @@
   import * as Tabs from "$lib/components/ui/tabs";
   import * as Select from "$lib/components/ui/select";
   import { Button } from "$lib/components/ui/button";
-  import { Input } from "$lib/components/ui/input";
-  import { Label } from "$lib/components/ui/label";
   import { Textarea } from "$lib/components/ui/textarea";
 	import CardEmail from "$lib/components/CardEmail.svelte";
+  import type { EmailData } from '$lib/types.ts';
 
   const choice = [
     { value: "customer", label: "I am already a customer" },
@@ -15,9 +14,21 @@
     { value: "ads", label: "Advertisement" },
     { value: "other", label: "Other" }
   ];
+ 
+  let emailData: EmailData = { name: '', email: '', phone: '', company: '', street: '', city: '', state: '', zip: '', subject: ''};
+
+  interface FormData {
+
+  }
+
+  // Function to handle button click (submission)
+  function handleSubmit() {
+        console.log('Email Data:', emailData);
+        // Process the email data here...
+    }
 </script>
 
-<Tabs.Root value="sales" class="w-[900px]">
+<Tabs.Root value="sales" class="w-[900px] mb-2">
   <Tabs.List class="grid w-full grid-cols-2">
     <Tabs.Trigger value="sales">Sales</Tabs.Trigger>
     <Tabs.Trigger value="service">Service</Tabs.Trigger>
@@ -31,9 +42,9 @@
         </Card.Description>
       </Card.Header>
       <Card.Content class="space-y-2">
-        <CardEmail />
+        <CardEmail bind:emailData/>
         <Textarea placeholder="Type your message here." />
-        <Select.Root>
+        <Select.Root bind:value={emailData.found}>
           <Select.Trigger class="w-[300px]">
             <Select.Value placeholder="Choice" />
           </Select.Trigger>
@@ -64,10 +75,10 @@
         </Card.Description>
       </Card.Header>
       <Card.Content class="space-y-2">
-        <CardEmail />
+        <CardEmail bind:emailData/>
       </Card.Content>
       <Card.Footer>
-        <Button>Submit</Button>
+        <Button on:click={handleSubmit}>Submit</Button>
       </Card.Footer>
     </Card.Root>
   </Tabs.Content>

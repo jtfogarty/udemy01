@@ -1,39 +1,41 @@
 <script lang="ts">
   import { Input } from "$lib/components/ui/input";
   import { Label } from "$lib/components/ui/label";
+  import type { EmailData } from '$lib/types.ts';
+  export let emailData: EmailData;
 </script>
 
 <div class="grid grid-cols-2 gap-4">
   <div class="space-y-1">
     <Label for="name">Name</Label>
-    <Input id="name" placeholder="name" />
+    <Input bind:value={emailData.name} placeholder="name" />
   </div>
   <div class="space-y-1">
     <Label for="email">Email</Label>
-    <Input id="email" type="email" placeholder="email" />
+    <Input bind:value={emailData.email} type="email" placeholder="email" />
   </div>
   <div class="space-y-1">
     <Label for="pn">Phone Number</Label>
-    <Input id="pn-01" placeholder="###-###-####" />
+    <Input bind:value={emailData.phone} placeholder="###-###-####" />
   </div>
   <div class="space-y-1">
     <Label for="cn">Company/Organization Name</Label>
-    <Input id="coname" placeholder="Company/Organization Name" />
+    <Input bind:value={emailData.company} placeholder="Company/Organization Name" />
   </div>
   <div class="space-y-1">
     <Label for="an">Street Address</Label>
-    <Input id="addr" placeholder="" />
+    <Input bind:value={emailData.street} placeholder="" />
   </div>
   <div class="space-y-1">
     <Label for="city">City</Label>
-    <Input id="city" placeholder="" />
+    <Input bind:value={emailData.city} placeholder="" />
   </div>
   <div class="space-y-1">
     <Label for="state">State</Label>
-    <Input id="state" placeholder="" />
+    <Input bind:value={emailData.state} placeholder="" />
   </div>
   <div class="space-y-1">
     <Label for="zip">Zip Code</Label>
-    <Input id="zip" placeholder="" />
+    <Input bind:value={emailData.zip} placeholder="" />
   </div>
 </div>
